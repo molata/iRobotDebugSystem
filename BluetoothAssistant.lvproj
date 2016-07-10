@@ -91,6 +91,16 @@
 		<Item Name="UML" Type="Folder">
 			<Item Name="BluetoothAssistant.uml" Type="Document" URL="../UML/BluetoothAssistant.uml"/>
 		</Item>
+		<Item Name="user.lib" Type="Folder">
+			<Item Name="Change ListBox FocusRow.vi" Type="VI" URL="../src/user_lib/Change ListBox FocusRow.vi"/>
+			<Item Name="Creat File With Autocreate Folder.vi" Type="VI" URL="../src/user_lib/Creat File With Autocreate Folder.vi"/>
+			<Item Name="Front Panel Defer Update.vi" Type="VI" URL="../src/user_lib/Front Panel Defer Update.vi"/>
+			<Item Name="Get File Extension and Name Without Extension.vi" Type="VI" URL="../src/user_lib/Get File Extension and Name Without Extension.vi"/>
+			<Item Name="Get Listbox FocusRow Text.vi" Type="VI" URL="../src/user_lib/Get Listbox FocusRow Text.vi"/>
+			<Item Name="Initialize Listbox.vi" Type="VI" URL="../src/user_lib/Initialize Listbox.vi"/>
+			<Item Name="OpenVIFile.vi" Type="VI" URL="../src/user_lib/OpenVIFile.vi"/>
+			<Item Name="Regular Search and Replace All Fitable Contents In String.vi" Type="VI" URL="../src/user_lib/Regular Search and Replace All Fitable Contents In String.vi"/>
+		</Item>
 		<Item Name="Top Level.vi" Type="VI" URL="../src/Top Level.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -166,6 +176,7 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -176,6 +187,9 @@
 				<Item Name="U64 Date-Time Record.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/AQ Character Lineator/U64 Date-Time Record.ctl"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
+				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
+				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">

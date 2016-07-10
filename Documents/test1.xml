@@ -1,0 +1,37 @@
+{
+     "ClassName":"BrowerComposite",
+     "ComponentID":"PC",
+     "SymbolIndex":1,
+     "ComponentName":"PC",
+     "PartsOfComponent_dict":{
+          "Type":"Void",
+          "attribute names":[],
+          "attributes":[]
+          },
+     "BrowerComponents":[{
+          "ClassName":"BrowerComposite",
+          "ComponentID":"asd",
+          "SymbolIndex":1,
+          "ComponentName":"asd",
+          "PartsOfComponent_dict":{
+               "Type":"Void",
+               "attribute names":[],
+               "attributes":[]
+               },
+          "BrowerComponents":[{
+               "ClassName":"BrowerComposite",
+               "ComponentID":"asd_1",
+               "SymbolIndex":2,
+               "ComponentName":"asd",
+               "PartsOfComponent_dict":{
+                    "Type":"Void",
+                    "attribute names":[],
+                    "attributes":[]
+                    },
+               "BrowerComponents":[],
+               "BrowerComponentIDs":[]
+               }],
+          "BrowerComponentIDs":["asd_1"]
+          }],
+     "BrowerComponentIDs":["asd"]
+     }
