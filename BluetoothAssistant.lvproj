@@ -88,7 +88,27 @@
 		<Item Name="Menu" Type="Folder">
 			<Item Name="BrowerMenu.rtm" Type="Document" URL="../Menu Shortcut/BrowerMenu.rtm"/>
 		</Item>
-		<Item Name="New Folder" Type="Folder"/>
+		<Item Name="Panel" Type="Folder">
+			<Item Name="BackStage" Type="Folder">
+				<Item Name="Controller" Type="Folder">
+					<Item Name="BackStage.lvclass" Type="LVClass" URL="../src/Panel/Controller/BackStage.lvclass"/>
+				</Item>
+				<Item Name="Global" Type="Folder">
+					<Item Name="g_Panel Queue.vi" Type="VI" URL="../src/Panel/Global/g_Panel Queue.vi"/>
+				</Item>
+				<Item Name="Models" Type="Folder">
+					<Item Name="PanelManager.lvclass" Type="LVClass" URL="../src/Panel/Models/PanelManager/PanelManager.lvclass"/>
+					<Item Name="PanelScripter.lvclass" Type="LVClass" URL="../src/Panel/Models/PanelScripts/PanelScripter.lvclass"/>
+				</Item>
+				<Item Name="TYpe Definition" Type="Folder">
+					<Item Name="g_Panel Status.ctl" Type="VI" URL="../src/Panel/Type Definition/g_Panel Status.ctl"/>
+					<Item Name="g_Panel_Data.ctl" Type="VI" URL="../src/Panel/Type Definition/g_Panel_Data.ctl"/>
+				</Item>
+				<Item Name="UnitTest" Type="Folder">
+					<Item Name="Assert Panel.vi" Type="VI" URL="../src/Panel/UnitTest/Assert Panel.vi"/>
+				</Item>
+			</Item>
+		</Item>
 		<Item Name="UML" Type="Folder">
 			<Item Name="BluetoothAssistant.uml" Type="Document" URL="../UML/BluetoothAssistant.uml"/>
 		</Item>
@@ -183,19 +203,25 @@
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Time Stamp To U64 Date-Time Record.vi" Type="VI" URL="/&lt;vilib&gt;/NI/AQ Character Lineator/Time Stamp To U64 Date-Time Record.vi"/>
 				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
+				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
+				<Item Name="TRef TravTarget.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef TravTarget.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="U64 Date-Time Record To Time Stamp.vi" Type="VI" URL="/&lt;vilib&gt;/NI/AQ Character Lineator/U64 Date-Time Record To Time Stamp.vi"/>
 				<Item Name="U64 Date-Time Record.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/AQ Character Lineator/U64 Date-Time Record.ctl"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
+			<Item Name="Component.lvclass" Type="LVClass" URL="../../Association/iRobotDebugSystem/Browers/Conposite Component/Abstract Component/Component.lvclass"/>
+			<Item Name="CompositeIterator.lvclass" Type="LVClass" URL="../../Association/iRobotDebugSystem/Browers/Iterator/CompositeIterator/CompositeIterator.lvclass"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Iterator.lvclass" Type="LVClass" URL="../../Association/iRobotDebugSystem/Browers/Iterator/Interface Iterator/Iterator.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
