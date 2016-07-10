@@ -88,6 +88,7 @@
 		<Item Name="Menu" Type="Folder">
 			<Item Name="BrowerMenu.rtm" Type="Document" URL="../Menu Shortcut/BrowerMenu.rtm"/>
 		</Item>
+		<Item Name="New Folder" Type="Folder"/>
 		<Item Name="UML" Type="Folder">
 			<Item Name="BluetoothAssistant.uml" Type="Document" URL="../UML/BluetoothAssistant.uml"/>
 		</Item>
